@@ -1,7 +1,5 @@
 # Ejercicios propuestos
 
-# Ejercicios propuestos
-
 ## Ejercicio 1
 
 Pon en marcha el servidor Apache y MySQL/MariaDB desde tu *manager* de XAMPP. Intenta acceder a la página de inicio (*http://localhost* si se inicia por el puerto por defecto) para comprobar que todo funciona correctamente.
