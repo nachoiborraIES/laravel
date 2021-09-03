@@ -6,7 +6,7 @@ Sobre el proyecto **blog** de ejercicios anteriores, edita el fichero `routes/we
 
 ## Ejercicio 2
 
-Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos dos cambios:
+Sobre el proyecto **blog** anterior, vamos a añadir estos dos cambios:
 
 * Añade una nueva ruta parametrizada a `posts/{id}`, de manera que el parámetro `id` sea numérico (es decir, sólo contenga dígitos del 0 al 9) y obligatorio. Haz que la ruta devuelva el mensaje "Ficha del post XXXX", siendo XXXX el id que haya recibido como parámetro.
 * Pon un nombre a las tres rutas que hay definidas hasta ahora: a la página de inicio ponle el nombre "inicio", a la del listado la llamaremos "posts_listado" y a la de ficha que acabas de crear, la llamaremos "posts_ficha".
