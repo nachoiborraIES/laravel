@@ -35,3 +35,7 @@ Sobre el mismo proyecto **blog** que venimos desarrollando, incorpora ahora los 
 <div align="center">
     <img src="../../img/02_blog_inicio.png" width="90%" />
 </div>
+
+**¿Qué entregar?**
+
+Como entrega de esta sesión deberás comprimir el proyecto **blog** con todos los cambios incorporados, y eliminando las carpetas `vendor` y `node_modules` como se explicó en las sesiones anteriores. Renombra el archivo comprimido a `blog_02.zip`.
