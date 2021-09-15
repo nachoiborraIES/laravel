@@ -5,7 +5,7 @@
 Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos cambios:
 
 * Crea una base de datos llamada `blog` en tu servidor de bases de datos a través de *phpMyAdmin*. Modifica también el archivo `.env` del proyecto para acceder a dicha base de datos con las credenciales adecuadas, similares a las del ejemplo de la biblioteca (cambiando el nombre de la base de datos).
-* Elimina las migraciones relativas a *password_resets* y *failed_jobs*, y edita la migración de la tabla usuarios para dejarla igual que el ejemplo de la biblioteca (únicamente con los campos *login* y *password*, además del *id* y los *timestamps*).
+* Elimina todas las migraciones existentes, salvo la de *create_users_table*. Edita esta migración de la tabla usuarios para dejarla igual que el ejemplo de la biblioteca (únicamente con los campos *login* y *password*, además del *id* y los *timestamps*).
 * Crea una nueva migración llamada `crear_tabla_posts`, que creará una tabla llamada `posts` con estos campos:
   * Id autonumérico
   * Título del post (`string`)
