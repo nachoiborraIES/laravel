@@ -42,7 +42,7 @@ En la ficha de los posts (vista `posts/show.blade.php`), añade el código neces
 Aquí tienes una captura de pantalla de cómo podría quedar:
 
 <div align="center">
-    <img src="img/t5_listado_posts_comentarios.png" width="90%" />
+    <img src="../../img/04_listado_posts_comentarios.png" width="90%" />
 </div>
 
 **¿Qué entregar?**
