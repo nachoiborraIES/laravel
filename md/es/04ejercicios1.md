@@ -1,6 +1,6 @@
 # Ejercicios propuestos - Parte 4 (I)
 
-### Ejercicio 1
+## Ejercicio 1
 
 Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos cambios:
 
@@ -13,7 +13,7 @@ Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos cambios
   * *Timestamps* para gestionar automáticamente la fecha de creación o modificación del post
 * Lanza las migraciones y comprueba que se crean las tablas correspondientes con los campos asociados en la base de datos.
 
-### Ejercicio 2
+## Ejercicio 2
 
 Continuamos con el proyecto **blog** anterior. Modifica si no lo has hecho aún el modelo `User` que viene por defecto para que se llame `Usuario`, igual que hemos hecho en el ejemplo de la biblioteca. Crea un nuevo modelo llamado `Post` para los posts de nuestro blog. Asegúrate de que ambos modelos se ubican en la carpeta `App\Models` del proyecto. 
 

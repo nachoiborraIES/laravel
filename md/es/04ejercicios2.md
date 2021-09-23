@@ -1,6 +1,6 @@
 # Ejercicios propuestos - Parte 4 (II)
 
-### Ejercicio 1
+## Ejercicio 1
 
 Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos cambios:
 
@@ -12,7 +12,7 @@ Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos cambios
     <img src="img/t5_listado_posts.png" width="50%" />
 </div>
 
-### Ejercicio 2
+## Ejercicio 2
 
 Continuamos con el proyecto **blog** anterior. Ahora añadiremos lo siguiente:
 
@@ -21,7 +21,7 @@ Continuamos con el proyecto **blog** anterior. Ahora añadiremos lo siguiente:
 
 Utiliza la opción `php artisan migrate:fresh --seed` para borrar todo contenido previo y poblar la base de datos con estos nuevos elementos.  Comprueba después desde la página del listado de posts, y desde *phpMyAdmin*, que la información que aparece es correcta.
 
-### Ejercicio 3
+## Ejercicio 3
 
 ***Opcional***
 
