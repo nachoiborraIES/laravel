@@ -32,6 +32,8 @@ Después, modifica los métodos del controlador `PostController` creado en sesio
     * Estos dos métodos (especialmente el primero) nos servirán para crear una serie de posts de prueba que luego nos servirán para probar el listado y la ficha de los posts.
 * En el archivo `routes/web.php`, recuerda añadir dos nuevas rutas temporales de tipo `get` para probar estas inserciones y modificaciones. La primera puede apuntar a `/posts/nuevoPrueba`, por ejemplo, y la segunda a `/posts/editarPrueba/{id}`. Recuerda también eliminar o editar la restricción `only` de las rutas del controlador que estableciste la sesión anterior, para que no sólo permita las rutas *index*, *show*, *create* y *edit*, y además permita la de *destroy* (o todas las posibles, si quieres, ya que tarde o temprano las utilizaremos).
 
+> **IMPORTANTE**: los métodos `nuevoPrueba` y `editarPrueba` que has creado en `PostController` NO son métodos estándar de un controlador de recursos, y de ninguna manera estarán disponibles a través de `Route::resource` en `routes/web.php`. Por eso debes definir a mano una ruta para cada uno de ellos en ese archivo, a través de `Route::get`, y esas rutas deben definirse ANTES de la de recursos (`Route::resource`) porque de lo contrario no se emparejarán correctamente.
+
 **¿Qué entregar?**
 
 Como entrega de esta sesión deberás comprimir el proyecto **blog** con todos los cambios incorporados, y eliminando las carpetas `vendor` y `node_modules` como se explicó en las sesiones anteriores. Renombra el archivo comprimido a `blog_04.zip`.
