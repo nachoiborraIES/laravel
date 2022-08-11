@@ -12,6 +12,7 @@ Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos cambios
   * Contenido del post (`text`)
   * *Timestamps* para gestionar automáticamente la fecha de creación o modificación del post
 * Lanza las migraciones y comprueba que se crean las tablas correspondientes con los campos asociados en la base de datos.
+* Opcionalmente, puedes desactivar las migraciones de Sanctum en el proyecto Laravel, como se ha explicado al final de [este documento](04b), si al crear las migraciones aparece alguna otra tabla no deseada, como la de los *personal_access_tokens*. Recuerda ejecutar `php artisan migrate:fresh` de nuevo para borrar el rastro de esas tablas.
 
 ## Ejercicio 2
 
