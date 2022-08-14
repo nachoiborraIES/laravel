@@ -8,10 +8,6 @@ Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos cambios
 * Crea desde *phpMyAdmin* una serie de usuarios de prueba en la tabla *usuarios*, y asocia algunos de ellos a los posts que haya. 
 * Modifica la vista `posts/index.blade.php` para que, junto al título de cada post, entre paréntesis, aparezca el login del usuario que lo creó. 
 
-<div align="center">
-    <img src="img/t5_listado_posts.png" width="50%" />
-</div>
-
 ## Ejercicio 2
 
 Continuamos con el proyecto **blog** anterior. Ahora añadiremos lo siguiente:
