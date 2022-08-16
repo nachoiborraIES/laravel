@@ -14,15 +14,6 @@ Sobre el proyecto **blog** de la sesión anterior, vamos a añadir estos cambios
   
 ## Ejercicio 2
 
-Crea un proyecto desde cero llamado `pruebaAuth` con mecanismos de autenticación ya pre-incorporados. Una vez creado, sigue los pasos a continuación:
-
-* Crea una base de datos llamada `pruebaAuth` en *phpMyAdmin*, y modifica el archivo `.env` del proyecto para que conecte con esa base de datos.
-* Lanza las migraciones predefinidas para crear las tablas necesarias para la gestión de usuarios (`php artisan migrate:fresh`)
-* Registra (empleando el formulario de registro) un par de usuarios con sus respectivas contraseñas.
-* Crea un controlador llamado `ProtegidoController`, sin métodos. Define luego un método interno llamado `protegido` que simplemente devuelva el mensaje "*Bienvenido/a a la zona protegida*. Define una ruta llamada `protegido` en `routes/web.php`, protegida con autenticación. Comprueba que sólo puedes acceder a la ruta estando validado.
-
-## Ejercicio 3
-
 ***Opcional***
 
 Continuamos con el proyecto **blog** anterior. Sigue estos pasos para definir una autenticación basada en roles:
@@ -35,9 +26,4 @@ Continuamos con el proyecto **blog** anterior. Sigue estos pasos para definir un
 
 **¿Qué entregar?**
 
-Como entrega de esta sesión deberás adjuntar lo siguiente: 
-
-* Comprimir el proyecto **blog** con todos los cambios incorporados, y eliminando las carpetas `vendor` y `node_modules` como se explicó en las sesiones anteriores. Renombra el archivo comprimido a `blog_07.zip`.
-* Comprimir el proyecto **pruebaAuth** (nuevamente sin las carpetas `vendor` y `node_modules`) como `pruebaAuth.zip`.
-
-Entrega ambos archivos por separado en la tarea de la sesión, o bien comprimidos los dos en otro archivo ZIP llamado `sesion7.zip`.
+Como entrega de esta sesión deberás comprimir el proyecto **blog** con todos los cambios incorporados, y eliminando las carpetas `vendor` y `node_modules` como se explicó en las sesiones anteriores. Renombra el archivo comprimido a `blog_07.zip`.
